@@ -1,0 +1,70 @@
+._container {
+  @apply max-w-[900px] my-0 mx-auto py-[30px] px-[20px] flex flex-col box-border;
+  /* max-width: 900px; */
+  /* margin: 0px auto; */
+  /* padding: 30px 20px; */
+  /* box-sizing: content-box; */
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.header_img {
+  @apply flex mb-[10px] justify-center;
+  /* display: flex;
+  justify-content: center;
+  margin: 0px 0px 10px 0px; */
+}
+
+.title {
+  @apply text-[36px] font-extrabold text-center;
+  /* font-size: 36px;
+  font-weight: 900;
+  text-align: center; */
+}
+
+.subtitle {
+  @apply mx-[40px] my-auto text-center;
+  /* margin: 40px auto;
+  text-align: center; */
+}
+
+.subtitle_title {
+  @apply text-[20px] font-bold italic;
+  /* font-style: italic;
+  font-weight: 700;
+  font-size: 20px; */
+}
+
+.subtitle_text {
+  @apply mb-[20px];
+  /* margin-top: 10px; */
+}
+
+.content {
+  @apply flex flex-col justify-center;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+.content > p {
+  @apply mb-[20px] text-[18px] font-['Arboria-Book'];
+  /* margin-bottom: 20px;
+  font-family: 'Arboria-Book';
+  font-size: 18px; */
+}
+
+.content > div {
+  @apply flex flex-col justify-center mb-[10px];
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px; */
+}
+
+.content__text {
+  @apply mt-[15px] text-center text-gray-400;
+  /* margin-top: 15px;
+  text-align: center;
+  color: rgb(174, 175, 175); */
+}
