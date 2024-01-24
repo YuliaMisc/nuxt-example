@@ -8,9 +8,9 @@
           </div>
           <div class=" ml-6 block">
             <div class="flex space-x-4">
-              <nuxt-link to="/" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</nuxt-link>
-              <nuxt-link to="/article" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Blog</nuxt-link>
-              <nuxt-link to="/feedback" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Feedback</nuxt-link>
+              <nuxt-link to="/" activeClass="bg-gradient-to-r from-[#6366F1] to-[#AC54F1]" class="text-gray-300 hover:bg-gradient-to-r hover:from-[#d44208] hover:bg-gradient-to-r hover:to-[#d4b208] hover:text-white rounded-md px-3 py-2 font-medium" aria-current="page">Home</nuxt-link>
+              <nuxt-link to="/article" activeClass="bg-gradient-to-r from-[#6366F1] to-[#AC54F1]"  class="text-gray-300 hover:bg-gradient-to-r hover:from-[#d44208] hover:bg-gradient-to-r hover:to-[#d4b208] hover:text-white rounded-md px-3 py-2 font-medium">Blog</nuxt-link>
+              <nuxt-link to="/feedback" activeClass="bg-gradient-to-r from-[#6366F1] to-[#AC54F1]"  class="text-gray-300 hover:bg-gradient-to-r hover:from-[#d44208] hover:bg-gradient-to-r hover:to-[#d4b208] hover:text-white rounded-md px-3 py-2 font-medium">Feedback</nuxt-link>
             </div>
           </div>
         </div>

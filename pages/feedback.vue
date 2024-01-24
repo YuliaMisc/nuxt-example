@@ -5,7 +5,7 @@
         <h3 class="mb-[5px] text-[35px]">Форма обратной связи</h3>
         <p class="md:text-[20px] text-[18px] font-['Arboria-Book']">Если у вас есть предложения или остались вопросы напишите нам заполнив форму обратной связи.</p>
       </div>
-      <form v-on:submit="submit">
+      <form v-on:submit.prevent="submit">
         <div class="flex flex-col text-gray-900 text-[20px] [&>*:not(:last-child)]:mb-[20px] lg:[&>input]:w-1/2 [&>input]:h-[40px] [&>*]:p-[10px] [&>*]:rounded-md [&>*]:bg-slate-300 [&>*]:placeholder:text-gray-600">
           <input type="text" name="username" placeholder="ФИО" required v-model.trim="form.username">
           <input type="number" name="phone" placeholder="Телефон" required v-model.trim="form.phone">
@@ -26,8 +26,7 @@
 import axios from 'axios';
 
 export default {
-  name: 'addClientPage',
-  submitStatus: null,
+  name: 'sendFeedback',
   data() {
     return {
       form: {
